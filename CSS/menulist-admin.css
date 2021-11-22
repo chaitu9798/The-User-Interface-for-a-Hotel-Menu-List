@@ -1,1 +1,53 @@
+#header{
+height:50px;
+background-color:blue;
+width:1520px;
 
+}
+#section
+{
+height:320px;
+
+
+}
+#footer
+{
+height:50px;
+background-color:gray;
+padding:2px;
+
+}
+#h2{
+
+}
+#section
+{
+padding:140px 300px;
+}
+#logoname
+{
+width:50px;
+height:50px;
+float:left;
+padding:15px 10px;
+}
+#image
+{
+width:50px;
+height:50px;
+float:left;
+}
+
+#space
+{width:1250px;
+height:50px;
+float:left;
+}
+#menulist
+{
+width	:50px;
+height:50px;
+float:left;
+padding:15px 10px;
+color:white;
+}
