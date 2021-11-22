@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Edit-menu-list</title>
+  <link rel="stylesheet" href="edit-menu-list-css.css"></link>
+ </head>
+ <body>
+  <div id="header">
+	<div id="logoname">
+	<font color="white">truYum</font>
+	</div>
+	<div id="logo">
+	<img id="image"src="logo.PNG"></img>
+	</div>
+	<div id="space">
+	</div>
+	<div id="menulist">
+	<a href="GetAdminItems" target="blank"><font color="white"><u>Menu</u></font><a>
+	</div>
+	<!-- 
+	<div id="Cart">
+	<a href="cart.html" target="blank"><font color="white"><u>Cart</u></font><a>
+	</div>
+	 -->
+</div>
+<div id="section">
+	<form action="saveItems" method="post">
+  <table id="sectionone">
+  <h3>Edit Menu List</h3>
+Name<br>
+<input type="text" pattern="[A-Z,a-z]{2-65}"style="width:500px"; name="name"required>
+   <tr>
+	<td>Price(Rs.)</td>
+	<td></td>
+	<td>Active</td>
+	<td></td>
+	<td>Date of Launch</td>
+	<td></td>
+	<td>Category</td>
+  </tr>
+  <tr>
+	<td><input type="number" name="price" required></td>
+	<td></td>
+	<td><input type="radio" value="Yes" name="active">Yes<input type="radio" value="Yes" name="active">No</td>
+	<td></td>
+	<td><input type="date" name="dateOfLaunch"></td>
+	<td></td>
+	<td><select name="category" >Select
+		<option value="Main Course" selected>Main Course
+		<option value="Starters">Starters
+		<option value="Dessert">Dessert
+		<option value="Drinks">Drinks
+	</select></td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+	<td><input type="checkbox" value="Yes" name="freeDelivery" >Free Delivery</td>
+  </tr>
+  <tr>
+	<td><input type="submit" value="Save" id="savebox" ></td>
+  </tr>
+  </table>
+  <form>
+ </div>
+  <div id="footer">
+  <h5>copyright &copy; 2020</h5>
+  </div>
+ </body>
+</html>
