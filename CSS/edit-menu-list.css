@@ -1,0 +1,67 @@
+#header{
+height:50px;
+background-color:blue;
+width:1520px;
+
+}
+#logoname
+{
+width:50px;
+height:50px;
+float:left;
+padding:15px 10px;
+}
+#image
+{
+width:50px;
+height:50px;
+float:left;
+}
+
+#space
+{width:1250px;
+height:50px;
+float:left;
+}
+#menulist
+{
+width	:50px;
+height:50px;
+float:left;
+padding:15px 10px;
+color:white;
+}
+#Cart
+{
+color:white;
+width:50px;
+height:50px;
+float:left;
+padding:15px 10px;
+}
+
+#section
+{
+height:410px;
+width:1500px;
+padding:90px 350px;
+}
+#sectionone
+{
+
+}
+#savebox
+{
+background-color:blue;
+color:white;
+width:100px;
+height:40px;
+}
+
+#footer
+{
+height:50px;
+background-color:gray;
+padding:2px;
+width:1520px;
+}
